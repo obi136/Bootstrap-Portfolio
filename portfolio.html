@@ -9,10 +9,32 @@
 </head>
 
 <body>
-    <nav class="navbar fixed-top navbar-dark bg-dark">
-        <span class="navbar-brand mb-1 h1">Your Name</span>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Your Name</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home
+                        <span class="sr-only">(current)</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
     </nav>
-    <header id="masthead">
+    <!-- <header id="masthead">
         <div class="container">
             <a href="index.html" id="logo">Your Name</a>
             <nav>
@@ -21,46 +43,69 @@
                 <a href="contact.html">Contact</a>
             </nav>
         </div>
-    </header>
+    </header> -->
 
-    <div id="main-container" class="container">
-        <section class="main-section">
-            <h1>Portfolio</h1>
-
-            <div class="work">
-                <img src="assets/images/technics-q-c-640-480-1.jpg" alt="Word Guess">
-
-                <h3>Word Guess</h3>
+    <div class="card-group">
+        <div class="card">
+            <img class="card-img-top" src="assets/images/technics-q-c-640-480-1.jpg" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">Word Guess</h5>
+                <p class="card-text">Word Guess Game</p>
             </div>
-            <div class="work">
-                <img src="assets/images/technics-q-c-640-480-2.jpg" alt="RPG Game">
-
-                <h3>RPG Game</h3>
+            <div class="card-footer">
+                <small class="text-muted">Last updated 2 Hours ago</small>
             </div>
-            <div class="work">
-                <img src="assets/images/technics-q-c-640-480-5.jpg" alt="Trivia Game">
-
-                <h3>Trivia Game</h3>
+        </div>
+        <div class="card">
+            <img class="card-img-top" src="assets/images/technics-q-c-640-480-2.jpg" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">RPG Game</h5>
+                <p class="card-text">Play Some Kingdom Hearts</p>
             </div>
-            <div class="work">
-                <img src="assets/images/technics-q-c-640-480-7.jpg" alt="Rutgers Info Widget">
-
-                <h3>Rutgers Info Widget</h3>
+            <div class="card-footer">
+                <small class="text-muted">Last updated 1 Hour ago</small>
             </div>
-            <div class="work">
-                <img src="assets/images/technics-q-c-640-480-9.jpg" alt="Rock Paper Scissors">
-
-                <h3>Rock Paper Scissors</h3>
+        </div>
+        <div class="card">
+            <img class="card-img-top" src="assets/images/technics-q-c-640-480-5.jpg" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">Trivia Game</h5>
+                <p class="card-text">Game Where You Guess The Right Answer</p>
             </div>
-
-        </section>
-
+            <div class="card-footer">
+                <small class="text-muted">Last updated 3 mins ago</small>
+            </div>
+        </div>
     </div>
 
-    <footer>
-        <div class="container">
-            Copyright &copy;
+    <br>
+    <div class="card-group">
+        <div class="card">
+            <img class="card-img-top" src="assets/images/technics-q-c-640-480-7.jpg" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">Rutgers Info Widget</h5>
+                <p class="card-text">Info on Rutgers University</p>
+            </div>
+            <div class="card-footer">
+                <small class="text-muted">Last updated 2 Hours ago</small>
+            </div>
         </div>
+        <div class="card">
+            <img class="card-img-top" src="assets/images/technics-q-c-640-480-9.jpg" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">Rock Paper Scissors</h5>
+                <p class="card-text">Don't Guess Rock</p>
+            </div>
+            <div class="card-footer">
+                <small class="text-muted">Last updated 1 Hour ago</small>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <nav class="navbar sticky-bottom navbar-light bg-light">
+            <a class="navbar-brand" href="#">Copyright ©</a>
+        </nav>
     </footer>
 </body>
 
